@@ -1,12 +1,25 @@
-# React + Vite
+# Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Sample View
 
-Currently, two official plugins are available:
+### Home
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Sample1](./demo_1.png)
 
-## Expanding the ESLint configuration
+### Search
+![Sample2](./demo_2.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+# 🚀 Overview
+
+This is a modern and responsive movie application built with React, styled efficiently with Tailwind CSS, and powered by Vite. It features a debounced search functionality for a smooth user experience, fetching comprehensive movie data from The Movie Database (TMDB) API.
+
+# ✨ Features
+
+- Comprehensive Movie Search: Easily find movies with a search bar.
+
+- Debounced Search: Implements debouncing for search input, optimizing API calls and providing a smoother, more responsive search experience.
+
+- Responsive UI with Tailwind CSS: A clean, modern, and fully responsive user interface built with the utility-first CSS framework, Tailwind CSS, ensuring a great experience on all devices.
+
+- TMDB API Integration: Fetches up-to-date movie information, including titles, posters, overviews, ratings, and more, directly from The Movie Database.
